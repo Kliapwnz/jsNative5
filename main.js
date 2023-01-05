@@ -4,3 +4,8 @@ console.log(strings.sort())
 const strings2 = ["Donald", "Alex", "Bob", "Дима", "genius", "Натали", "9"]
 console.log(strings2.sort())
 //2. Сортирует в порядке Юникода и мутирует массив
+
+const numbers = [1000, 25, 777, 8, 9988, -8]
+console.log(numbers.sort())
+
+
