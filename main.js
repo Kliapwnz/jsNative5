@@ -9,3 +9,6 @@ const numbers = [1000, 25, 777, 8, 9988, -8]
 console.log(numbers.sort())
 
 
+const compareFuncPro = (a, b) => a - b
+console.log(numbers.sort(compareFuncPro))
+// функия сравнения должна возвращать число больше или меньше 0
